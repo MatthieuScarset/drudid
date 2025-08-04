@@ -1,0 +1,30 @@
+{
+    "recommendations": [
+        // Auto-export notebooks on save
+        "emeraldwalk.runonsave",
+        
+        // Python development
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        
+        // Jupyter notebooks
+        "ms-toolsai.jupyter",
+        
+        // Code formatting and linting
+        "charliermarsh.ruff",
+        "ms-python.isort",
+        
+        // Git and version control
+        "github.vscode-pull-request-github",
+        
+        // Environment files
+        "mikestead.dotenv",
+        
+        // General productivity
+        "ms-vscode.vscode-json",
+    ],
+    "unwantedRecommendations": [
+        // Extensions that might conflict or are not needed
+        "ms-python.autopep8"
+    ]
+}

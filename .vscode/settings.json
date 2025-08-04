@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.ipynb$",
+                "cmd": "${workspaceFolder}/.venv/bin/python -m nbautoexport export \"${file}\""
+            }
+        ]
+    }
+}

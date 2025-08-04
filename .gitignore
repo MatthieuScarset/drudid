@@ -1,0 +1,17 @@
+# Local & temporary files.
+.env
+.venv/
+__pycache__/
+*.pyc
+*.zip
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.ruff_cache/
+
+# Data files.
+data/
+models/**/
+
+# Documentation
+site/

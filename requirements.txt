@@ -1,0 +1,38 @@
+# Basics
+pip
+python-dotenv
+pytest
+loguru
+mkdocs
+ruff
+tqdm
+typer
+
+# Datasets
+h2 
+httpx
+orjson 
+pyarrow
+
+# Notebooks
+jupyterlab
+nbautoexport
+notebook
+
+# Data Analysis
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+
+# API
+# @see api/requirements.txt
+fastapi
+uvicorn
+
+# App
+# @see app/requirements.txt
+streamlit
+
+-e .
